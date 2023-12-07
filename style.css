@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.game-board{
+    width: 80%;
+    height: 500px;
+    border:1px solid #333;
+    margin: 0 auto;
+    position: relative;
+}
+
+.coyote {
+    position: absolute;
+    height: 80px;
+    bottom: 0;
+    right: -45px;
+    animation: coyote-animation 1.3s infinite linear;
+}
+
+.papaleguas {
+    position: absolute;
+    height: 60px;
+    bottom: 0;
+}
+
+.jump {
+    animation: jump 700ms ease-out;
+}
+
+@keyframes coyote-animation {
+    
+    from {
+        right: -80;
+    }
+
+    to {
+        right: 100%;
+    }
+}
+
+@keyframes jump {
+    
+    0% {
+        bottom: 0;
+    }
+
+    40% {
+        bottom: 120px;
+    }
+
+    50% {
+        bottom: 120px;
+    }
+
+    60% {
+        botoom: 120px;
+    }
+
+    80% {
+        botoom: 120px;
+    }
+
+    100% {
+        bottom: 0;
+    }
+
+}

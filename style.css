@@ -17,17 +17,18 @@
     height: 80px;
     bottom: 0;
     right: -45px;
-    animation: coyote-animation 1.3s infinite linear;
-}
+    /*left: 180px; */
+    animation: coyote-animation 1.3s infinite linear; 
+}  
 
 .papaleguas {
     position: absolute;
-    height: 60px;
+    height: 70px;
     bottom: 0;
 }
 
 .jump {
-    animation: jump 700ms ease-out;
+    animation: jump 800ms ease-out;
 }
 
 @keyframes coyote-animation {
